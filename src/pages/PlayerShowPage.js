@@ -1,18 +1,13 @@
-import React, { Fragment } from "react";
+/* eslint-disable react/jsx-props-no-spreading */
+import React, { Fragment } from 'react';
+import Navbar from '../components/Navbar';
+import PlayerShowPage from '../components/Teams/Soccer/SoccerPlayerShow/PlayerShowPage';
 
-// components found in components folder
-import Navbar from "../components/Navbar";
-
-// components found in components/Teams folder
-import PlayerShowPage from "../components/Teams/Soccer/SoccerPlayerShow/PlayerShowPage";
-
-const SoccerShowPage = props => {
-  return (
-    <Fragment>
-      <Navbar />
-      <PlayerShowPage {...props} />
-    </Fragment>
-  );
-};
+const SoccerShowPage = (props) => (
+  <>
+    <Navbar />
+    <PlayerShowPage {...props} />
+  </>
+);
 
 export default SoccerShowPage;

@@ -16,7 +16,6 @@
 
 .loginForm hr {
   border: 1px solid rgb(236, 103, 15);
-  
 }
 
 /* Full-width input fields */
@@ -67,6 +66,7 @@ button:hover {
   .loginForm {
     background-color: white;
     width: 85vw;
+
     /* height: 80vh; */
     padding: 2vh 4vw;
     margin-top: 3vh;

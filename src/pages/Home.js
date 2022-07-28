@@ -1,16 +1,12 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
+import Navbar from '../components/Navbar';
+import Homepage from '../components/Homepage';
 
-// components found in components folder
-import Navbar from "../components/Navbar";
-import Homepage from "../components/Homepage";
-
-const Home = props => {
-  return (
-    <Fragment>
-      <Navbar />
-      <Homepage />
-    </Fragment>
-  );
-};
+const Home = () => (
+  <>
+    <Navbar />
+    <Homepage />
+  </>
+);
 
 export default Home;

@@ -6,6 +6,7 @@ html {
 .dashboardContainer {
   width: 98.5vw;
   height: 91vh;
+
   /* background-color: rgba(14, 11, 22, 0.85); */
   margin: 0 0.2vw 0.2vw 0.3vw;
   display: flex;
@@ -66,13 +67,14 @@ html {
 .button:focus,
 .button:hover {
   background-color: rgb(93, 160, 139);
-  color: White;
+  color: white;
 }
 
 .userName {
   font-size: 1em;
   text-align: center;
 }
+
 .userBalance {
   font-size: 1em;
   text-align: center;

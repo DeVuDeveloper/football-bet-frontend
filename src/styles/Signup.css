@@ -38,6 +38,12 @@ input[type="password"]:focus {
   outline: none;
 }
 
+.cancelSignup,
+.signUpBtn {
+  float: left;
+  width: 49%;
+}
+
 .signupForm hr {
   border: 1px solid rgb(236, 103, 15);
   margin-bottom: 2vh;
@@ -82,14 +88,6 @@ input[type="password"]:focus {
   opacity: 1;
 }
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelSignup,
-.signUpBtn {
-  float: left;
-  width: 49%;
-}
-
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;

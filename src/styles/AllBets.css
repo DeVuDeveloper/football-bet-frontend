@@ -22,13 +22,13 @@ thead {
   color: #fff;
 }
 
-tbody tr:nth-child(odd){
+tbody tr:nth-child(odd) {
   background-color: #116466;
   color: #fff;
   font-size: 14px;
 }
 
-tbody tr:nth-child(even){
+tbody tr:nth-child(even) {
   background-color: #d1e8e2;
   color: rgb(104, 99, 99);
   font-size: 14px;
@@ -36,6 +36,7 @@ tbody tr:nth-child(even){
 
 .greenBet {
   background-color: #98fb98;
+
   /* opacity: 0.75; */
 }
 

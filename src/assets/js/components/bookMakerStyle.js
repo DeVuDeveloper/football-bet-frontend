@@ -1,74 +1,74 @@
 const bookMakerStyle = {
   container: {
-    backgroundColor: "#1A404F",
-    borderRadius: "20px",
-    boxShadow: "0 3rem 6rem rgba(1, 3, 38, 0.5)",
+    backgroundColor: '#1A404F',
+    borderRadius: '20px',
+    boxShadow: '0 3rem 6rem rgba(1, 3, 38, 0.5)',
   },
   tabMenu: {
-    borderBottom: "1px solid #1DA885",
-    paddingBottom: "1rem",
-    flexWrap: "nowrap",
-    overflowX: "scroll",
-    "&::-webkit-scrollbar": {
-      display: "none",
-    }
+    borderBottom: '1px solid #1DA885',
+    paddingBottom: '1rem',
+    flexWrap: 'nowrap',
+    overflowX: 'scroll',
+    '&::-webkit-scrollbar': {
+      display: 'none',
+    },
   },
   tabItem: {
-    marginRight: "1rem",
+    marginRight: '1rem',
   },
   tabLink: {
-    color: "#F2F2F2",
-    fontSize: "1.875rem",
-    padding: "0.5rem",
+    color: '#F2F2F2',
+    fontSize: '1.875rem',
+    padding: '0.5rem',
   },
   tabActive: {
-    display: "block",
-    backgroundColor: "#1DA885",
-    boxShadow: "0 0 10px #198F71",
-    borderRadius: "10px !important",
-    padding: "10px",
-    height: "50px",
-    width: "50px",
+    display: 'block',
+    backgroundColor: '#1DA885',
+    boxShadow: '0 0 10px #198F71',
+    borderRadius: '10px !important',
+    padding: '10px',
+    height: '50px',
+    width: '50px',
   },
   tabUnActive: {
-    display: "block",
-    backgroundColor: "transparent",
-    color: "#F2F2F2",
-    padding: "10px",
-    height: "50px",
-    width: "50px",
+    display: 'block',
+    backgroundColor: 'transparent',
+    color: '#F2F2F2',
+    padding: '10px',
+    height: '50px',
+    width: '50px',
 
   },
   tabPanel: {
-    border: "none",
+    border: 'none',
   },
   table: {
-    width: "100%",
+    width: '100%',
     marginBottom: 0,
   },
   tableHead: {
     padding: 0,
   },
   tableHeadItem: {
-    padding: "0 0 0 5.5vh",
-    border: "none",
-    color: "#F2F2F2",
-    fontSize: "0.7rem",
+    padding: '0 0 0 5.5vh',
+    border: 'none',
+    color: '#F2F2F2',
+    fontSize: '0.7rem',
   },
- 
+
   tableBodyRow: {
-    "&:nth-child(odd)": {
-      backgroundColor: "#062633",
+    '&:nth-child(odd)': {
+      backgroundColor: '#062633',
     },
-    "&:nth-child(even)": {
-      backgroundColor: "#562633",
+    '&:nth-child(even)': {
+      backgroundColor: '#562633',
     },
   },
- 
+
   date: {
-    color: "#F2F2F2",
-    fontEeight: "lighter",
-    fontSize: "0.8rem",
+    color: '#F2F2F2',
+    fontEeight: 'lighter',
+    fontSize: '0.8rem',
   },
 };
 export default bookMakerStyle;
