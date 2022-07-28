@@ -1,0 +1,104 @@
+/* User Dashboard CSS */
+html {
+  background-color: rgba(104, 129, 124, 0.952);
+}
+
+.dashboardContainer {
+  width: 98.5vw;
+  height: 91vh;
+
+  /* background-color: rgba(14, 11, 22, 0.85); */
+  margin: 0 0.2vw 0.2vw 0.3vw;
+  display: flex;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.dashboardContainerRight {
+  width: 80vw;
+  height: 89vh;
+  margin-top: 1vh;
+  margin-right: 0.3vh;
+}
+
+.dashboardLeft {
+  width: 16vw;
+  height: 88vh;
+  background-color: #0e0b16;
+  color: #e7dfdd;
+  margin: 1vh 1vh 0 0;
+  padding: 1vh 1vh;
+}
+
+.dashboardRightTop {
+  width: 78vw;
+  height: 35vh;
+  background-color: #0e0b16;
+  color: #e7dfdd;
+  margin: 0;
+  padding: 1vh 1vh;
+}
+
+.dashboardRightBottom {
+  width: 78vw;
+  height: 51vh;
+  background-color: #0e0b16;
+  color: #e7dfdd;
+  margin-top: 1vh;
+  padding: 0.5vh 1vh;
+}
+
+.dashBets {
+  margin-top: 2vh;
+}
+
+/* a tag as a button */
+
+.button {
+  float: right;
+  background-color: rgb(84, 112, 103);
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+  margin: 0.8vh 2.5vh 0 0;
+  font-size: 1em;
+}
+
+.button:focus,
+.button:hover {
+  background-color: rgb(93, 160, 139);
+  color: white;
+}
+
+.userName {
+  font-size: 1em;
+  text-align: center;
+}
+
+.userBalance {
+  font-size: 1em;
+  text-align: center;
+}
+
+.userLinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebarLink {
+  text-decoration: none;
+  background-color: rgb(84, 112, 103);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bolder;
+  width: 14vw;
+  margin: 2vh;
+  text-align: center;
+}
+
+.sidebarLink:hover {
+  background-color: rgb(94, 119, 113);
+  color: #e7dfdd;
+}

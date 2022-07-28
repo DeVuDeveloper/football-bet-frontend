@@ -1,0 +1,169 @@
+.betsFormContainer {
+  display: flex;
+  width: 99vw;
+  height: 88vh;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.betsFormForm {
+  background-color: #0e0b16;
+  color: white;
+  width: 40vw;
+
+  /* height: 65vh; */
+  padding: 1vh 3vw;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+
+.betsFormForm hr {
+  border: 1px solid #ee4b0b;
+  margin-bottom: 2vh;
+}
+
+.betsFormForm span {
+  color: #656166;
+}
+
+.betsFormForm h5 {
+  margin: 1.8vh 0;
+  font-size: 1em;
+}
+
+.betWagerBtn {
+  display: flex;
+}
+
+.betWagerBtn button {
+  width: 6vw;
+  margin: 20px 5px;
+  background: #0e0b16;
+  color: white;
+  font-size: 1.2vmin;
+}
+
+.betOutcomeBtn button {
+  width: 15vw;
+  margin: 0.5vh auto;
+  background: #0e0b16;
+  color: white;
+  font-size: 2vmin;
+}
+
+.betWagerBtn button:hover {
+  opacity: 1;
+  color: white;
+}
+
+/* Full-width input fields */
+#wagerInput {
+  width: 10vw;
+  margin: 21px 5px;
+  background: #0e0b16;
+  color: white;
+  font-size: 0.75em;
+  border: 1px white solid;
+}
+
+#wagerInput:focus {
+  background-color: #ddd;
+  color: #0e0b16;
+  font-size: 0.75em;
+  outline: none;
+}
+
+th {
+  font-size: 14px;
+}
+
+.betOutcomeBtn {
+  width: 18vw;
+  margin: auto;
+  display: flex;
+  opacity: 0.9;
+  gap: 15px;
+}
+
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 49%;
+}
+
+.betOutcomeBtn button:hover {
+  opacity: 1;
+  color: white;
+}
+
+.finalBet table {
+  margin: 2vh 1vw;
+  background: white;
+  border: white;
+}
+
+.finalBet th {
+  color: white;
+  background-color: #0e0b16;
+}
+
+.finalBet td {
+  padding: 0.5vh;
+  background-color: #0e0b16;
+  color: #ee4b0b;
+  font-size: 1.4vh;
+}
+
+/* Set a style for all buttons */
+.signupbtn {
+  background-color: rgb(134, 235, 39);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.signupbtn:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #d61212;
+  color: white;
+  margin: 8px 0;
+  margin-right: 2px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.cancelbtn:hover {
+  background-color: #eb1e28;
+  opacity: 1;
+}
+
+.betsFormForm p {
+  font-size: 0.5em;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}

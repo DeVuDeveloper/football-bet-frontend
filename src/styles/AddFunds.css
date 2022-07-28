@@ -1,0 +1,60 @@
+.addFundsContainer {
+  width: 99vw;
+  height: 91vh;
+  display: flex;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.addFundsForm {
+  width: 35vw;
+  background-color: #181b1b;
+  color: rgb(161, 160, 154);
+  font-size: 1.5vh;
+  font-weight: lighter;
+  margin: auto;
+  padding: 2vh;
+}
+
+.addFundsForm h2 {
+  color: rgb(146, 144, 143);
+}
+
+.addFundsForm button {
+  width: auto;
+  padding: 1vw;
+  font-size: 1.7vh;
+  margin: 1vh;
+  background-color: #6b6579;
+  color: rgb(104, 228, 22);
+  text-align: center;
+  outline-color: invert;
+  outline-width: thick;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.addFundsForm label {
+  font-size: 3vh;
+  margin-left: 1.5vh;
+}
+
+.addFundsForm input[type="text"] {
+  width: 7vw;
+  padding: 1vw;
+  font-size: 1.8vh;
+  margin: 1vh;
+  background-color: #bfbcc7;
+  color: #e1deee;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.addFundsForm input[type="submit"] {
+  width: 17vw;
+  padding: 1vw;
+  font-size: 1.5vw;
+  margin: 5vh 10vw 2vh 10vw;
+  background-color: #37363a;
+  color: rgb(104, 228, 22);
+  border-radius: 15px;
+  outline: none;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}

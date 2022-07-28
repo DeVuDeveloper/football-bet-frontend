@@ -1,0 +1,82 @@
+.soccerTeamsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  width: 99vw;
+  min-height: 91vh;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.soccerTeamsHeader {
+  /* background-color: red; */
+  width: 100%;
+  height: 10vh;
+  margin: 1vh auto;
+  padding: 1vh;
+  text-align: center;
+  color: #e7dfdd;
+  font-size: 3em;
+  display: block;
+}
+
+.soccerTeamsCards {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto 5vh auto;
+}
+
+.soccerTeamCard {
+  margin: 1vh auto;
+  padding: 1vh;
+  width: 12vw;
+  height: 12vw;
+  background-color: black;
+  border: 2px solid #4717f6;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.soccerTeamCard img {
+  max-height: 12vw;
+}
+
+/* This container is needed to position the front and back side */
+.soccer-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.soccerTeamCard:hover .soccer-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.soccer-card-front,
+.soccer-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.soccer-card-front {
+  background-color: #000;
+  color: black;
+}
+
+/* Style the back side */
+.soccer-card-back {
+  background-color: #4717f6;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.soccer-card-back h1 {
+  padding-top: 1vh;
+}
