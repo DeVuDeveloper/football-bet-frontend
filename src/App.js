@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 /* eslint-disable no-else-return */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/jsx-fragments */
@@ -100,7 +101,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    auto_login: (token) => autoLogin(dispatch, token),
+    autoLogin: (token) => autoLogin(dispatch, token),
     getTeams: () => fetchTeams(dispatch),
     getGames: () => fetchGames(dispatch),
   };

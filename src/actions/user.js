@@ -1,3 +1,6 @@
+/* eslint-disable camelcase */
+/* eslint-disable dot-notation */
+/* eslint-disable arrow-parens */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-alert */
 /* eslint-disable object-shorthand */
@@ -79,21 +82,23 @@ export const signup = async (
   }
 };
 
-export const autoLogin = async (dispatch, token) => {
-  const res = await fetch(AUTO_LOGIN, {
+export const autoLogin = (dispatch, token) => {
+  return fetch(AUTO_LOGIN, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
       Accept: 'application/json',
       Authorization: token,
     },
-  });
-  const user = await res.json();
-  dispatch({
-    type: 'USER_TOKEN',
-    payload: token,
-  });
-  dispatch({ type: 'CURRENT_USER', payload: user.data });
+  })
+    .then((res) => res.json())
+    .then((user) => {
+      dispatch({
+        type: 'USER_TOKEN',
+        payload: token,
+      });
+      dispatch({ type: 'CURRENT_USER', payload: user['data'] });
+    });
 };
 
 export const fetchGames = async (dispatch) => {

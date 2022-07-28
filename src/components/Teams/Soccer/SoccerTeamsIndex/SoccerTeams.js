@@ -16,7 +16,7 @@ const SoccerTeams = (props) => {
   return (
     <div className="soccerTeamsContainer">
       <div className="soccerTeamsHeader">
-        <h1>Champions League Teams</h1>
+        <h1>England Premier League</h1>
       </div>
       <div className="soccerTeamsCards">{mapTeamsToTeamCard()}</div>
     </div>
