@@ -1,0 +1,60 @@
+/* Available Games to bet on CSS */
+
+.gamesList {
+  width: 95%;
+  margin: auto;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.gamesList h1 {
+  color: #e7dfdd;
+  padding: 1.5vh 0;
+}
+
+.futureGamesList {
+  width: 95%;
+  margin: 3vh auto;
+}
+
+.pastGamesList {
+  width: 95%;
+  margin: 0 auto 5vh auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+th {
+  height: 50px;
+  background-color: rgb(156, 153, 153);
+}
+
+tr {
+  height: 50px; 
+  font-size: 25px;
+  padding: 1vh;
+}
+
+button {
+  border-radius: 5px;
+  padding: 3px 10px;
+  background-color: #1e1f1d;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  color: #fff;
+}
+
+button:focus,
+button:hover {
+  background-color: #2c2c2e;
+  opacity: 1;
+}
+
+h2 {
+  margin: 25px;
+  color: #fff;
+}

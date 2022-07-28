@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  background-color: #000000;
+  overflow: hidden;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.navLogo {
+  height:60px;
+  width: 60px;
+  margin: 5px 0 0 50px;
+  
+}
+
+.links {
+  margin-left: auto;
+  width: 55vw;
+}
+
+.homeLinks {
+  margin-left: auto;
+  width: 28vw;
+}
+
+.navLink {
+  display: inline-block;
+  width: 8.4vw;
+  text-align: center;
+  font-size: 0.8em;
+  color: #e7dfdd;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: rgb(93, 160, 139);
+}

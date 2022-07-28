@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signupContainer {
+  display: flex;
+  width: 99vw;
+  height: 70vh;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.signupForm {
+  background-color: #0e0b16;
+  color: #e7dfdd;
+  width: 40vw;
+  height: 65vh;
+  padding: 1vh 1vw;
+  margin-top: 6.5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 15px;
+  margin: 20px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgba(14, 11, 22, 0.7);
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background: rgba(14, 11, 22, 0.4);
+  outline: none;
+}
+
+.signupForm hr {
+  border: 1px solid rgb(236, 103, 15);
+  margin-bottom: 2vh;
+}
+
+/* Set a style for all buttons */
+.signUpBtn {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  background-color: rgb(236, 103, 15);
+  font-size: 1em;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.signUpBtn:hover {
+  background-color: rgb(236, 103, 15);
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelSignup {
+  padding: 14px 20px;
+  background-color: #a01729;
+  color: white;
+  margin: 8px 0;
+  margin-right: 2px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 1em;
+  font-family: "Varela Round", "Comfortaa", sans-serif;
+}
+
+.cancelSignup:hover {
+  background-color: #a239ca;
+  opacity: 1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelSignup,
+.signUpBtn {
+  float: left;
+  width: 49%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelSignup,
+  .signUpBtn {
+    width: 100%;
+  }
+}
